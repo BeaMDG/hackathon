@@ -7,7 +7,7 @@ Welcome to QUACKLY, a marketplace that we dive into fun and nostalgia with a uni
 QUACKLY was born from the idea that a rubber duck can be more than just a desk decoration for developers. Inspired by the famous "rubber duck debugging" technique, where explaining code aloud to a rubber duck helps find errors, we decided to take this practice to the next level. Each DuckCode rubber duck comes with a unique specialty and is equipped with features to aid problem-solving and boost coder productivity.
 
 <h2 align="center" class="key-features">Marketplace</h2>
-The marketplace MVP allows users to perform five main actions:
+The marketplace MVP allows users to perform three main actions:
 
 - View all available products: On the marketplace homepage, users can browse through a list of all products available for purchase.
 
@@ -15,38 +15,23 @@ The marketplace MVP allows users to perform five main actions:
 
 - Search for a product: The marketplace allows users to use a search bar to look for specific products. 
 
-- Add to the shopping cart: Each product detail page contains an "Add to Cart" button. 
-
-- Publish to sell: users can also publish their own products to sell. 
-
 <h2 align="center" class="key-features">Key Features</h2>
 
-### <b>Users:</b>
-    - Name
-    - email
-    - Search
-    - Publish
 
 ### <b>Products Details:</b>
-    - Id
     - Title
     - Description
     - Price
     - Image
-    - Seller
-    - Contact
 
 ### <b>Products list:</b>
-    - Title
-    - Description
-    - Price
     - Image
-
-### <b>System:</b>
-    - Alertas 
+    - Title
+    - Price
+ 
 
 ### 💻 Tools and Technologies
-Figma | Visual Studio Code | React |
+Figma | Visual Studio Code | React | Laravel | PHP | Docker Compose | Mysql
 
 ### <b>Developers:</b>
 
