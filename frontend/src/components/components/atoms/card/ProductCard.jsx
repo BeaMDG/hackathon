@@ -10,7 +10,7 @@ const ProductCard = (props) => {
         <div className="card-content">
           <h2 className="card-title">{title}</h2>
           <p className="card-description">{description}</p>
-          <h4 className="card-price">${price.toFixed(2)}</h4>
+          <h4 className="card-price">{!isNaN(parseFloat(price)) ? parseFloat(price).toFixed(2) : 'Valor inválido'}</h4>
         </div>
       </div>
     );
