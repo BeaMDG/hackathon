@@ -8,7 +8,7 @@ const DuckInfo = () => {
       <Text>
         Sabias que...El 10% del precio de cualquier producto va destinado a las reservas protegidas de los patos.
       </Text>
-      <Image src="src/assets/image-dinfo/imageduckinfo.png" alt="Duck Info" />
+      <Image src="src/assets/imagedinfo/imageduckinfo.png" alt="Duck Info" />
      
     </div>
   );

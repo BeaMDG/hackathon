@@ -4,8 +4,8 @@ import Image from '../atoms/Image';
 const DonInfo = () => {
   return (
     <div>
-      <Image src="src/assets/image-dinfo/logo.png" alt="Logo" />
-      <Image src="src/assets/image-dinfo/www.png" alt="WWW" />
+      <Image src="src/assets/imagedinfo/logo.png" alt="Logo" />
+      <Image src="src/assets/imagedinfo/www.png" alt="WWW" />
     </div>
   );
 };
