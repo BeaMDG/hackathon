@@ -1,0 +1,39 @@
+
+.goFoundSection {
+    height: 450px;
+    width: 100%;
+
+    background-color: #C1F3D2;
+}
+
+
+.goFoundText {
+    color: #709B7F;
+    padding: 10px;
+    margin-right: 70px;
+}
+    .goFoundText h2{
+        margin-top: 30px;
+    }
+
+.goFoundContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 20px;
+
+}
+    .goFoundContainer h3 {
+        margin-right: 70px;
+    }
+    .goFoundBtn {
+        margin-right: 30px;
+    }
+
+#imgNature img{
+    height: 200px;
+    width: 100px;
+    margin-top: 10px;
+
+}

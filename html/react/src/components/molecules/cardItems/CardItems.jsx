@@ -1,16 +1,24 @@
 import './CardItems.css'
 
-import contents from '../../productData/content';
-import ProductCard from '../../atoms/card/ProductCard';
+function CardItems() {
+  return (
+    <>
+        <section>
+            <article>
+            <h2>Producktos mas Populares</h2>
+            </article>
 
-function Cardgeneric() {
-    const products = contents.map(product => (
-        <ProductCard key={product.id} {...product}/>
-    ))
-     return(
-        <>
-            <div>{products}</div>
-        </>
-     )
- }
- export default Cardgeneric
+            <div>
+                <div>
+
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
+    </>
+  )
+}
+
+export default CardItems
