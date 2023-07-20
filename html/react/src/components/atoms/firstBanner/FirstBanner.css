@@ -1,0 +1,13 @@
+.firstBannerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+
+    background-color: #FFD2DF;
+}
+
+.fBannerText {
+    font-size: small;
+}
