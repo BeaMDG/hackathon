@@ -4,7 +4,7 @@ import Dropdown from "../../atoms/dropdownMenu/DropdownMenu"
 
 import Logo from "../../../assets/DuckIconLittle.png"
 
-function navbar() {
+function Navbar() {
   return (
     <>
         <section className='navbar'>
@@ -12,7 +12,7 @@ function navbar() {
           <div className='navbarContainer'>
             <header className='navbarLeft'>
               <div><img id='imgMenu' src={Logo}/></div>
-              <div id='search'><SearchBar /></div>
+              <div id='search'><SearchBar/></div>
             </header>
 
             <footer className='navbarRigth'>
@@ -25,4 +25,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar

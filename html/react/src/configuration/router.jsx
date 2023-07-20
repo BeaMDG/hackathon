@@ -7,6 +7,8 @@ const RouterItem = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element= {<LandingPage />}></Route>
+                <Route path="/detail" element= {<DetailPage />}></Route>
+                <Route path="*" element= {<PageNotFound />}></Route>
             </Routes>
         </BrowserRouter>
     )

@@ -11,8 +11,7 @@ function LandingPage() {
     <>
         <header>
           <FirstBanner />
-          <Navbar></Navbar>
-                
+          <Navbar/>  
         </header>
 
         <main>
