@@ -1,13 +1,23 @@
-
 import './App.css';
+
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ShowProducts } from './Components/ShowProducts';
+
+
 
 function App() {
   return (
     <div className="App">
-    
-    <h1 class="text-6xl">Hola mundo</h1>
+      <BrowserRouter>
+        <Routes>
+        <Route path="/" element={<ShowProducts/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+
+
