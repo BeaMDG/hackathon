@@ -1,9 +1,13 @@
+import React from 'react';
 
-
-function Btn() {
+const Button = ({ onClick, children }) => {
   return (
-    <div>Btn</div>
-  )
-}
+    <button onClick={onClick}>
+      {children}
+    </button>
+  );
+};
 
-export default Btn
+export default Button;
+
+
