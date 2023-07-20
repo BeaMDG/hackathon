@@ -1,10 +1,10 @@
-import CTA from '../components/organisms/CTA';
+import DuckCollection from "../components/organisms/DuckCollection";
 
 
 const landingPage = () => {
     return (
       
-             <CTA />
+             <DuckCollection/>
      
     );
   };

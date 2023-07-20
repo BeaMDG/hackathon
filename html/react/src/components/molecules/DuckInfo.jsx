@@ -14,4 +14,8 @@ const DuckInfo = () => {
   );
 };
 
+
+
+
+
 export default DuckInfo;
