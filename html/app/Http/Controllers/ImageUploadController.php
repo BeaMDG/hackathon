@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Product;
 
 class ImageUploadController extends Controller
 {
@@ -12,11 +13,18 @@ class ImageUploadController extends Controller
             'image' => 'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048',
         ]);
 
-        $imageName = time().'.'.$request->image->extension();  
-        $request->image->move(public_path('images'), $imageName);
-  
+        $imageFile = $request->file('image'); 
+        $imageName = $imageFile->getClientOriginalName();
+        $imagePath = '/var/www/html/public/images/' . $imageName;
+        $imageFile->move('/var/www/html/public/images', $imageName);
+
+        $product = new Product();
+        $product->image_path = $imagePath;
+        $product->save();
+
         return back()
-            ->with('success','You have successfully upload image.')
-            ->with('image',$imageName);
+            ->with('success', 'You have successfully uploaded an image.')
+            ->with('image', $imagePath);
     }
 }
+
