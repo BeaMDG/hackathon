@@ -1,0 +1,21 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    margin-top: ;
+
+    background-color: #eee;
+}
+
+#imgMenu {
+    align-items: center;
+    height: 30px;
+    width: auto;
+    margin-top: 20px;
+}
+
+#search {
+    padding-top: 0;
+}

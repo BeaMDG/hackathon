@@ -1,8 +1,8 @@
 
 
-function Btn() {
+function Btn(button) {
   return (
-    <div>Btn</div>
+    <button className={ button.className }>{ button.content }</button>
   )
 }
 
