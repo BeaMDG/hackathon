@@ -1,0 +1,21 @@
+
+.dropdownContainer {
+    position: relative;
+}
+
+    .dropdownContainer ul {
+        position: absolute;
+        max-height: 0px;
+        overflow: hidden;
+        transition: all .8s;
+        padding: 0;
+    }
+    .dropdownContainer:hover ul {
+        max-height: 200px;
+    }
+    .dropdownContainer ul li {
+        width: 100px;
+        padding: 10px;
+
+        background-color: #eee;
+    }
