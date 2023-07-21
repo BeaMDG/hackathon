@@ -1,0 +1,10 @@
+
+.bttn3 {
+    width: 100px;
+    height: 40px;
+
+    background-color: #FFF4A8;
+    border-radius: 30px;
+    border-style: none;
+    cursor: pointer;
+}
