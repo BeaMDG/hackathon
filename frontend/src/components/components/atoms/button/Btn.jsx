@@ -1,9 +1,14 @@
+import React from 'react';
+import './Btn.css'
 
-
-function Btn(button) {
+const Button = ({ onClick, children }) => {
   return (
-    <button className={ button.className }>{ button.content }</button>
-  )
-}
+    <button onClick={onClick}>
+      {children}
+    </button>
+  );
+};
 
-export default Btn
+export default Button;
+
+

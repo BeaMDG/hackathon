@@ -1,0 +1,31 @@
+
+.salesContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #cfe2d5;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.salesContainer, .salesSection {
+    margin: 30px;
+}
+
+.salesText p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+    #sales1 {
+        margin-right: 30px;
+    }
+
+.salesImg img {
+    border-radius: 15px;
+}
+
+.salesSection{
+    text-align: center;
+    font-size: 2rem;
+}
